@@ -1,0 +1,16 @@
+{
+  "lint": [
+    "!coverage/**/*",
+    "!node_modules/**/*.js",
+    "**/*.js"
+  ],
+  "unit": [
+    "test/unit/**/*.js"
+  ],
+  "func": [
+    "test/plugins/**/*.js"
+  ],
+  "src": [
+    "lib/**/*.js"
+  ]
+}

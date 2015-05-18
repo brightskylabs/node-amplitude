@@ -1,0 +1,39 @@
+{
+  "name": "node-amplitude",
+  "description": "Node SDK for amplitude APIs",
+  "version": "0.0.1",
+  "author": "Lei Pan <superpan@gmail.com>",
+  "repository": "git://github.com/brightskylabs/node-amplitude",
+  "main": "index.js",
+  "scripts": {
+    "test": "alias gulp='node_modules/gulp/bin/gulp.js'; gulp beautify && gulp eslint",
+    "beautify": "alias gulp='node_modules/gulp/bin/gulp.js'; gulp beautify --write"
+  },
+  "keywords": [
+    "node",
+    "amplitude",
+    "event",
+    "data",
+    "api",
+    "sdk"
+  ],
+  "engines": {
+    "node": ">=0.10.30"
+  },
+  "dependencies": {
+    "request": "2.55.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "gulp-jsbeautifier": "0.0.2",
+    "gulp-eslint": "^0.1.8",
+    "gulp": "^3.8.7",
+    "gulp-diff": "^0.1.4",
+    "gulp-help": "^0.1.11",
+    "gulp-mocha": "^1.1.0",
+    "gulp-util": "^3.0.1",
+    "minimist": "^0.2.0",
+    "mocha": "^1.21.4"
+  },
+  "licenses": "MIT"
+}
