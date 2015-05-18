@@ -4,11 +4,8 @@
     "!node_modules/**/*.js",
     "**/*.js"
   ],
-  "unit": [
-    "test/unit/**/*.js"
-  ],
-  "func": [
-    "test/plugins/**/*.js"
+  "test": [
+    "test/**/*.js"
   ],
   "src": [
     "lib/**/*.js"
