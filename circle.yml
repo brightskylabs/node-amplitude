@@ -4,7 +4,7 @@ machine:
 dependencies:
   pre:
     - npm install
-    - sudo npm install -g gulp
+    - npm install -g gulp
 test:
   override:
     - npm test
