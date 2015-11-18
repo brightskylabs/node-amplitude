@@ -1,7 +1,7 @@
 {
   "name": "node-amplitude",
   "description": "Node SDK for amplitude APIs",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "author": "Lei Pan <superpan@gmail.com>",
   "repository": "git://github.com/brightskylabs/node-amplitude",
   "main": "index.js",
