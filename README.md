@@ -14,11 +14,13 @@ var amplitude = new Amplitude({
 });
 
 var params = {
-  start: '2012-05-01T02',
-  end: '2012-05-02T03'
+  //Date in yyyymmdd format
+  start: '20160726',
+  end: '20160825',
 };
 
-amplitude.export.export(params, function(err, res) {
+//Second parameter is a path to where the api response will be stored 
+amplitude.export.export(params, "temp/export_response", function(err, res) {
   // handle err and response
   ...
 });

@@ -18,7 +18,7 @@
     "sdk"
   ],
   "engines": {
-    "node": ">=0.10.30"
+    "node": ">=4.5.0"
   },
   "dependencies": {
     "adm-zip": "^0.4.7",
@@ -28,11 +28,11 @@
   },
   "devDependencies": {
     "chai": "^1.9.1",
-    "gulp-jsbeautifier": "0.0.2",
-    "gulp-eslint": "^0.1.8",
     "gulp": "^3.8.7",
     "gulp-diff": "^0.1.4",
+    "gulp-eslint": "^3.0.1",
     "gulp-help": "^0.1.11",
+    "gulp-jsbeautifier": "0.0.2",
     "gulp-mocha": "^1.1.0",
     "gulp-util": "^3.0.1",
     "minimist": "^0.2.0",
